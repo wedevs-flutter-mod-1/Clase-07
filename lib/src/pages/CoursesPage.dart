@@ -34,14 +34,15 @@ class CoursesPage extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Lato'),
+                    fontFamily: 'Lato'
+                ),
               ),
             ),
             Expanded(
               child: Row(
                 children: [
                   Expanded(
-                      child: GestureDetector(
+                    child: GestureDetector(
                     onTap: () {
                       showDialog(
                           context: context,

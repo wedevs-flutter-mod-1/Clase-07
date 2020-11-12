@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   font_awesome_flutter: ^8.10.0
+  flutter_rating_bar: ^3.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -63,7 +64,7 @@ flutter:
   fonts:
     - family: Lato
       fonts:
-        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Dosis.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

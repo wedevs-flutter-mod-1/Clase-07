@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:wedevs/src/pages/ComunityPage.dart';
 import 'package:wedevs/src/pages/CoursesPage.dart';
 import 'package:wedevs/src/pages/TutorsPage.dart';
 import 'package:wedevs/src/pages/constantes.dart';
@@ -15,12 +16,11 @@ class _HomePageState extends State<HomePage> {
   List<Widget> _opciones = <Widget>[
     //OPCIONES DE COURSES
     CoursesPage(),
-    Center(
-      child: Text(
-        'opcion 1',
-        style: kopcion,
-      ),
-    ),
+
+    //COMUNIDAD
+    ComunityPage(),
+
+    //TUTORES
     TutorsPage()
   ];
 
